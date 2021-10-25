@@ -10,7 +10,7 @@ HTML - CSS - JavaScript
 
 ### PC view
 
-<img src="assets/desktop.gif" height="500em" />
+<img src="assets/screenshots.gif" height="500em" />
 
 
 
