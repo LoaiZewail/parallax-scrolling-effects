@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="jarallax.css">
+    <title>Awesome Parallax Scrolling</title>
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">React</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="assets/1.png" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>React is a free and open-source front-end JavaScript library for building user interfaces or UI
+                        components. It is maintained by Facebook and a community of individual developers and companies.
+                        React can be used as a base in the development of single-page or mobile applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 200">React Native</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="assets/2.png" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>React Native is an open-source UI software framework created by Facebook, Inc. It is used to
+                        develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling
+                        developers to use the React framework along with native platform capabilities. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 -200">Angular</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="assets/3.png" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>Angular is a TypeScript-based free and open-source web application framework led by the Angular
+                        Team at Google and by a community of individuals and corporations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="box">
+            <h2 data-jarallax-element="0 200">Flutter</h2>
+            <div class="container">
+                <div class="imgBx jarallax">
+                    <img src="assets/4.png" class="jarallax-img">
+                </div>
+                <div class="content" data-jarallax-element="-200 0">
+                    <p>Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile,
+                        web, desktop, and embedded devices from a single codebase.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="jarallax.js"></script>
+    <script src="jarallax-element.js"></script>
+    <script>
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.5
+        });
+    </script>
+</body>
+
+</html>
