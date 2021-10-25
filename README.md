@@ -1,6 +1,6 @@
-# Travel Website
+# Parallax Scrolling Effects
 
-A simple responsive travel website with beautiful UI.
+Stunning Parallax Scrolling Effects Website
 
 ## Technologies used
 
