@@ -10,7 +10,9 @@ HTML - CSS - JavaScript
 
 ### PC view
 
-<img src="assets/screenshots.gif" height="500em" />
+<p align="center">
+  <img src="assets/screenshots.gif" height="500em" />
+</p>
 
 
 
